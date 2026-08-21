@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.register {
+  background: rgb(25, 59, 59);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.price-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.price-section h2 {
+  font-size: 18px;
+  color: #64748b;
+}
+
+#price-display {
+  font-size: 40px;
+  font-weight: bold;
+  color: #16a34a;
+  margin-top: 8px;
+}
+
+.payment-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #c8d0dd;
+}
+
+input {
+  padding: 12px;
+  
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+button {
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.result-section {
+  margin-top: 25px;
+  padding: 15px;
+  background: #f8fafc;
+  border-radius: 4px;
+}
+
+#change-due {
+  font-weight: bold;
+  line-height: 1.6;
+}
